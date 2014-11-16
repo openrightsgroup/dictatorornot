@@ -1,0 +1,5 @@
+package dictatorornot
+
+func init() {
+
+}

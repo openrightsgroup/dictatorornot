@@ -1,41 +1,67 @@
 var React = require('react');
 
-var quotes = [
+var quotes =[
+    {
+        "quote" : "The time of happiness as a private matter is over",
+        "who"   : "Adolf Hitler",
+        "pic"   : "http://upload.wikimedia.org/wikipedia/commons/9/9a/Bundesarchiv_Bild_183-S33882,_Adolf_Hitler_%28cropped2%29.jpg",
+        "when"  : "",
+        "dictator" : true
+    },
     {
         "quote" : "You have to know everything in order to be completely safe",
         "who" : "Erich Mielke, head of the East German Stasi",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bundesarchiv_Bild_183-R0522-177,_Erich_Mielke.jpg/220px-Bundesarchiv_Bild_183-R0522-177,_Erich_Mielke.jpg",
         "when" : "",
         "dictator" : true
     },
     {
         "quote" : "You have zero privacy anyway. Get over it",
         "who" : "Scott Mcnealy, CEO Sun Microsystems",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/6/6d/Scott_McNealy_2005_%2845227110%29.jpg",
         "when" : "1999",
         "dictator" : false
     },
     {
         "quote" : "You can't have 100% security and also then have 100% privacy and zero inconvenience",
         "who" : "Barack Obama, President of the USA",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/e/e9/Official_portrait_of_Barack_Obama.jpg",
         "when" : "|6/8/2013",
+        "dictator" : false
+    },
+    {
+        "quote" : "Leaking is tantamount to aiding the enemies of the [country",
+        "who" : "US Department of Defence internal strategy document",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/e/e0/United_States_Department_of_Defense_Seal.svg",
+        "when" : "June 1, 2012",
         "dictator" : false
     },
     {
         "quote" : "Innocence never fears public scrutiny",
         "who" : "Maximilian Robespierre, National Assembly of France during the Reign of Terror",
         "when" : "3/31/1794 (aka  11 Germinal Year II)",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/1/12/Hw-robespierre.jpg",
         "dictator" : true
-    },
-    {
-        "quote" : "Leaking is tantamount to aiding the enemies of the country",
-        "who" : "US Department of Defence internal strategy document",
-        "when" : "June 1, 2012",
-        "dictator" : false
     },
     {
         "quote" : "I think the privacy issue has really been taken off the table.",
         "who" : "Ray Kelly, Chief of NYPD",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/7/7d/Ray_Kelly_US_Commissioner_of_Customs.jpg",
         "when" : "April 22, 2013",
         "dictator" : false
+    },
+    {   "quote" : "If the police need more help to do their work, I will not hesitate in granting it to them",
+        "who" : "Theresa May, Home Secretary (UK)",
+        "pic" : "http://upload.wikimedia.org/wikipedia/commons/6/62/Theresa_May.jpg",
+        "when" : "28 March 2011",
+        "dictator" : false
+    },
+    {
+        "quote" : "Ideas are more powerful than guns. We would not let our enemies have guns, why should we let them have ideas?",
+        "who"   : "Joseph Stalin",
+        "pic"   : "http://upload.wikimedia.org/wikipedia/commons/4/43/Stalin01.jpg",
+        "when"  : "",
+        "dictator" : true
     }
 ];
 

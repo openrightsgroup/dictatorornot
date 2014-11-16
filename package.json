@@ -5,7 +5,7 @@
   "main": "src/js/app.js",
   "scripts": {
     "start": "watchify -o src/js/dictatorornot.js -v -d .",
-    "build": "NODE_ENV=production browserify . | uglifyjs -cm > dictatorornot.min.js",
+    "build": "NODE_ENV=production browserify . | uglifyjs -cm > dist/dictatorornot.min.js",
     "test": "jest"
   },
   "author": "",
