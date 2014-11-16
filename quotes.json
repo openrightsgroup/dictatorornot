@@ -1,0 +1,36 @@
+{
+    "dictator_quotes" : [
+	{
+            "quote" : "You have to know everything in order to be completely safe",
+            "who" : "Erich Mielke, head of the East German Stasi",
+	    "when" : ""
+	},
+	{
+		"quote" : "Innocence never fears public scrutiny",
+		"who" : "Maximilian Robespierre, National Assembly of France during the Reign of Terror",
+		"when" : "3/31/1794 (aka  11 Germinal Year II)"
+	}
+    ],
+    "non_dictator_quotes" : [
+	{
+		"quote" : "You have zero privacy anyway. Get over it",
+		"who" : "Scott Mcnealy, CEO Sun Microsystems",
+		"when" : "1999"
+	},
+	{
+		"quote" : "You can't have 100% security and also then have 100% privacy and zero inconvenience",
+		"who" : "Barack Obama, President of the USA",
+		"when" : "|6/8/2013"
+	},
+	{
+		"quote" : "Leaking is tantamount to aiding the enemies of the [country",
+		"who" : "US Department of Defence internal strategy document",
+		"when" : "June 1, 2012"
+	},
+	{
+		"quote" : "I think the privacy issue has really been taken off the table.",
+		"who" : "Ray Kelly, Chief of NYPD",
+	        "when" : "April 22, 2013"
+	}
+    ]
+}
