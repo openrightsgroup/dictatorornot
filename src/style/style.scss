@@ -1,0 +1,93 @@
+// App Vars
+$org-red: #bf2026;
+
+// Bootstrap vars
+
+$font-family-sans-serif: "Lato", sans-serif;
+
+//  Boostrap import
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/theme";
+
+html, body {
+  height: 100%;
+}
+
+
+
+.main-container {
+  background-color: $org-red;
+  height: 100%;
+  position: relative;
+//  /* fallback */
+//  background-position: center center;
+//  background-repeat: no-repeat;
+//
+//  /* Safari 4-5, Chrome 1-9 */
+//  /* Can't specify a percentage size? Laaaaaame. */
+//  background: -webkit-gradient(radial, center center, 0, center center, 200px, from(#ffffff), to(#bf2026));
+//
+//  /* Safari 5.1+, Chrome 10+ */
+//  background: -webkit-radial-gradient(circle, #ffffff, #bf2026);
+//
+//  /* Firefox 3.6+ */
+//  background: -moz-radial-gradient(circle, #ffffff, #bf2026);
+//
+//  /* IE 10 */
+//  background: -ms-radial-gradient(circle, #ffffff, #bf2026);
+
+  .quote-container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    .quote-view {
+      min-width: 350px;
+      min-height: 200px;
+
+      .question {
+        font-size: 18px;
+        margin-bottom: 25px;
+      }
+
+      .answer {
+        font-size: 20px;
+        text-align: center;
+
+        .who {
+          font-style: italic;
+        }
+      }
+
+      .next-button {
+        margin-top: 30px;
+        font-size: 25px;
+      }
+
+      .result {
+        h2 {
+          font-size: 50px;
+          text-align: center;
+          margin-top: 25px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    .yes-button {
+      float: left;
+    }
+
+    .no-button {
+      float: right;
+    }
+  }
+}
